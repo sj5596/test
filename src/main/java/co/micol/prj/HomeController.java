@@ -16,4 +16,8 @@ public class HomeController {
 		return "home/home";
 	}
 	
+	@RequestMapping("/home")
+	public String home() {
+		return "home/home";
+	}
 }
